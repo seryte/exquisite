@@ -35,7 +35,7 @@ obj['data']['periodDetails'] = [{
            "explain" : "阶段免停",
            "duration" : 1
          }];
-
+obj['data']['ladderDetailList']['currentCumulateCash']=0
 body = JSON.stringify(obj);
 
 
