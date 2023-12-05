@@ -28,7 +28,13 @@ obj['data']['outTime'] = formattedDate;
 //   detail.explain = "阶段免停";
 // });
 // console.log(new_periodDetails);
-// obj['data']['periodDetails'] = new_periodDetails;
+obj['data']['periodDetails'] = [{
+           "startTime" : formattedDate,
+           "amount" : 0,
+           "endTime" : formattedDate,
+           "explain" : "阶段免停",
+           "duration" : 1
+         }];
 
 body = JSON.stringify(obj);
 
